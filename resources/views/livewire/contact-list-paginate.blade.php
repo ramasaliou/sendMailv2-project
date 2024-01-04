@@ -8,10 +8,10 @@
             
       <div class="card-body" >
         <h5 class="card-title"><i class="fa-duotone fa-envelopes"></i> Admin </h5>
-        <p class="card-text" "><h1><strong>{{$admine}}</strong></h1></p>
+        <p class="card-text"><h1><strong>{{$admine}}</strong></h1></p>
         
       </div>
-      <a class="navbar-brand border border-primary bg-primary text-center p-2 m-2" href='{{route('listContactadminview')}}'>liste des Admins</a>
+      <a class="navbar-brand border border-danger text-center p-2 m-2" style="background-color: rgb(248, 215, 218);" href='{{route('listContactadminview')}}'>liste des Admins</a>
      </div>
      <div class=" col-md-2 card m-1 border border-secondary"style="backgrounde-color: rgb(120, 176, 160);" >
            
@@ -20,7 +20,7 @@
         <p class="card-text" ><h1><strong>{{$stagiaire}}</strong></h1></p>
 
       </div>
-      <a class="navbar-brand border border-primary bg-primary text-center p-2 m-2" href='{{route('listContactstagiaireview')}}'>Liste des Stagiaire</a>
+      <a class="navbar-brand border border-danger text-center p-2 m-2" style="background-color: rgb(248, 215, 218);" href='{{route('listContactstagiaireview')}}'>Liste des Stagiaire</a>
     </div>
 
     <div class="col-md-2 card m-1 border border-info" style="backgrounde-color: rgb(112, 144, 120);">
@@ -30,7 +30,7 @@
         <p class="card-text" ><h1><strong>{{$membre}}</strong></h1></p>
       
       </div>
-      <a class="navbar-brand border border-primary bg-primary text-center p-2 m-2" href="{{route('listContactview')}}" >Liste des Membres</a>
+      <a class="navbar-brand border border-danger text-center p-2 m-2" style="background-color: rgb(248, 215, 218);"  href="{{route('listContactview')}}" >Liste des Membres</a>
     </div>
 
     <div class="col-md-2 card m-1 border border-info"style="backgrounde-color: rgb(120, 176, 160);" >
@@ -39,7 +39,7 @@
         <p class="card-text" ><h1><strong>{{$total}}</strong></h1></p>
       
       </div>
-      <a class="navbar-brand border border-primary bg-primary text-center p-2 m-2" href="{{route('listContactview')}}">Tous les contacts</a>
+      <a class="navbar-brand border border-danger  text-center p-2 m-2" style="background-color: rgb(248, 215, 218);" href="{{route('listContactview')}}">Tous les contacts</a>
     </div> 
 
 
@@ -71,11 +71,11 @@
           <thead class="thead thead-info">
             <tr>
               <th scope="col">#</th>
-              <th scope="col">Nom</th>
-              <th scope="col">Prenom</th>
-              <th scope="col">email</th>
-              <th scope="col">Numero</th>
-              {{-- <th scope="col">Action</th> --}}
+                  <th scope="col">first Name</th>
+                  <th scope="col">last Name</th>
+                  <th scope="col">email</th>
+                  <th scope="col">Phone</th>
+              <th scope="col">Action</th>
               
             </tr>
           </thead>
@@ -92,17 +92,17 @@
                </a>
               </td> 
               {{-- <td>{{$cont->id}}</td> --}}
-              <td>{{$cont->Nom}}</td>
-              <td>{{$cont->Prenom}}</td>
-              <td>{{$cont->email}}</td>
-              <td>{{$cont->numero}}</td>
-              {{-- <td>
-                <div class="btn-group ">
-                  <button class="btn btn-danger btn-sm " wire:click="deleteContact({{$cont->id}})">Delete</button>
+              <td>{{$cont->firstName}}</td>
+                  <td>{{$cont->lastName}}</td>
+                  <td>{{$cont->email}}</td>
+                  <td>{{$cont->phone}}</td>
+              <td>
+                <div class=" d-flexjustify-content-center ">
+                  <button class="btn btn-danger  " wire:click="deleteContact({{$cont->id}})">Delete</button>
                   
-                  <button class="btn btn-success btn-sm ">Edit</button>
+                  <button class="btn btn-success ml-2">Edit</button>
                 </div>
-              </td> --}}
+              </td> 
               
             </tr>
           </tbody>

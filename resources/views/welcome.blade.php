@@ -54,36 +54,36 @@
                 </div> --}}
                  
                 <div class="form-group">
-                    <label for="name">Name</label>
+                    <label for="name" style="color: white">Name</label>
                    
                     <input type="text" class="form-control" name="name" placeholder="name" value="{{old('name')}}">
                     @error('name')<span class="text-danger">{{$message}}</span>@enderror
                 </div>
                 <div class="form-group">
-                 <label for="text">Email</label>
+                 <label for="text" style="color: white">Email</label>
                     @livewire('email-search')
                     {{-- <label for="text">Email</label>
                     <input type="email" class="form-control" name="email" placeholder="Entrer your email" value="{{old('email')}}">
                     @error('email')<span class="text-danger">{{$message}}</span>@enderror --}}
                 </div>
                 <div class="form-group">
-                    <label for="subject">Subject</label>
+                    <label for="subject" style="color: white">Subject</label>
                     <input type="text" class="form-control" name="subject" placeholder="subject" value="{{old('subject')}}">
                     @error('subject')<span class="text-danger">{{$message}}</span>@enderror
                 </div>
                 <div class="form-group">
-                    <label for="message">Message</label>
+                    <label for="message" style="color: white">Message</label>
                     {{-- <textarea type="text" cols="4" rows="4" class="form-control" name="message" placeholder="Entrer your message" value="{{old('message')}}"></textarea> --}}
                     <textarea name="message" id="myeditorinstance" placeholder="message"></textarea>
                     @error('name')<span class="text-danger">{{$message}}</span>@enderror
                 </div>
                 <div class="form-group">
-                    <label for="subject">Add file</label>
+                    <label for="subject" style="color: white">Add file</label>
                     <input type="file" class="form-control" name="piecejoint" placeholder="piecejoint" value="{{old('piecejoint')}}">
                 </div>
     
     
-                <button type="submit" class="btn btn-primary m-3" >Send</button>
+                <button type="submit" class="btn m-3" style="background-color: rgb(248, 215, 218);">Send</button>
     
             </form>
         </div>

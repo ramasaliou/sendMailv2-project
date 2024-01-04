@@ -18,8 +18,8 @@
   <title>Send-Mail</title>
 </head>
 <body>
-   <nav class="navbar navbar-expand-lg navbar-light bg-primary  ">
-      <a class="navbar-brand" href="{{route('home')}}"><i class="fa-solid fa-envelope m-2"></i><strong>Team-Communication-App</strong></a>
+   <nav class="navbar navbar-expand-lg navbar-light bg-danger " style="color: white;">
+      <a class="navbar-brand" style="color: white;" href="{{route('home')}}"><i class="fa-solid fa-envelope m-2 text-white"></i><strong>Team-Communication-App</strong></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -28,13 +28,13 @@
             
         <ul class="navbar-nav ms-auto">
             <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle fs-5 fw-bold" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <a class="nav-link dropdown-toggle fs-5 fw-bold text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Envoi Email
                   </a>
-                  <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="{{route('homegroupe')}} ">Envoi d'email groupé</a>
+                  <div class="dropdown-menu bg-danger" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item text-white" href="{{route('homegroupe')}} ">Envoi d'email groupé</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="{{route('home')}}">Envoi d'email individuel</a>
+                    <a class="dropdown-item text-white" href="{{route('home')}}">Envoi d'email individuel</a>
                     
                    
                   </div>
@@ -46,10 +46,10 @@
             
           </li> --}}
           <li class="nav-item">
-            <a class="nav-link fs-5 fw-bold text-dark" href="{{route('addContactview')}}">Ajouter un contact</a>
+            <a class="nav-link fs-5 fw-bold text-white" href="{{route('addContactview')}}">Ajouter un contact</a>
           </li>
-          <li class="nav-item fs-5 fw-bold text-dark">
-            <a class="nav-link" href="{{route('listContactview')}}">Liste des contacts</a>
+          <li class="nav-item fs-5 fw-bold text-white">
+            <a class="nav-link text-white" href="{{route('listContactview')}}">Liste des contacts</a>
           </li>
          
           
@@ -60,9 +60,9 @@
 
       @yield('content')
      
-      <div class="text-center pt-3 mt-3 bg-primary";">
+      <div class="text-center pt-3 mt-3 bg-danger" style="color: white" >
             © 2024 Copyright:
-            <a class="text-dark" href="#">Defarsci.com</a>
+            <a class="text-white" href="#">Defarsci.com</a>
           </div>
 
 {{-- 

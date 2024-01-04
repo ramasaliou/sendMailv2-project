@@ -75,7 +75,7 @@
                       </div>
                       
                 </div>
-                <button type="submit" class="btn btn-primary m-3" >Ajouter</button>
+                <button type="submit" class="btn  m-3" style="background-color: rgb(248, 215, 218);">Ajouter</button>
             </form>
         </div>
         </div>

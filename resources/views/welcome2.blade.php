@@ -52,7 +52,7 @@
                         <input type="file" class="form-control" name="piecejoint" placeholder="Piecejoint" value="{{ old('piecejoint') }}">
                     </div>
 
-                    <button type="submit" class="btn btn-primary m-3">Send</button>
+                    <button type="submit" class="btn  m-3" style="background-color: rgb(248, 215, 218);">Send</button>
                 </form>
             </div>
         </div>

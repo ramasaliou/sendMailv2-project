@@ -5,15 +5,15 @@
         <div class="col-md-3">
                 
         </div>
-        {{-- <div class="col-md-2 card m-1  border border-primary "style="backgrounde-color: rgb(112, 144, 120);" >
+        <div class="col-md-2 card m-1  border border-primary "style="backgrounde-color: rgb(112, 144, 120);" >
                 
           <div class="card-body" >
             <h5 class="card-title"><i class="fa-duotone fa-envelopes"></i> Admin </h5>
-            <p class="card-text" "><h1><strong>{{$admine}}</strong></h1></p>
+            <p class="card-text"><h1><strong>{{$admine}}</strong></h1></p>
             
           </div>
-          <a class="navbar-brand border border-primary bg-info text-center p-2 m-2" href='{{route('listContactadminview')}}'>voire list</a>
-         </div> --}}
+          <a class="navbar-brand border border-danger  text-center p-2 m-2" style="background-color: rgb(248, 215, 218);" href='{{route('listContactadminview')}}'>voire list</a>
+         </div>
          <div class=" col-md-2 card m-1 border border-secondary"style="backgrounde-color: rgb(120, 176, 160);" >
                
           <div class="card-body">
@@ -21,7 +21,7 @@
             <p class="card-text" ><h1><strong>{{$stagiaire}}</strong></h1></p>
     
           </div>
-          <a class="navbar-brand border border-primary bg-primary text-center p-2 m-2" href='{{route('listContactadminview')}}'>liste des Stagiares</a>
+          <a class="navbar-brand border border-danger  text-center p-2 m-2" style="background-color: rgb(248, 215, 218);" href='{{route('listContactadminview')}}'>liste des Stagiares</a>
         </div>
     
         <div class="col-md-2 card m-1 border border-info" style="backgrounde-color: rgb(112, 144, 120);">
@@ -31,7 +31,7 @@
             <p class="card-text" ><h1><strong>{{$membre}}</strong></h1></p>
           
           </div>
-          <a class="navbar-brand border border-primary bg-primary text-center p-2 m-2" href='{{route('listContactadminview')}}'>liste des Admins</a>
+          <a class="navbar-brand border border-danger  text-center p-2 m-2" style="background-color: rgb(248, 215, 218);" href='{{route('listContactadminview')}}'>liste des Admins</a>
         </div>
     
         <div class="col-md-2 card m-1 border border-info"style="backgrounde-color: rgb(120, 176, 160);" >
@@ -40,7 +40,7 @@
             <p class="card-text" ><h1><strong>{{$total}}</strong></h1></p>
           
           </div>
-          <a class="navbar-brand border border-primary bg-primary text-center p-2 m-2" href="{{route('listContactview')}}" >tout les contacts </a>
+          <a class="navbar-brand border border-danger  text-center p-2 m-2" style="background-color: rgb(248, 215, 218);" href="{{route('listContactview')}}" >tout les contacts </a>
         </div> 
     
     
@@ -57,7 +57,7 @@
         </div>
     
         <div class="col-md-8">
-            <div class=" bg-primary text-center  mb-5 fw-bold h1 " for="firstName">Liste des admins</div>
+            <div class=" bg-danger text-center  mb-5 fw-bold h1 " style="color: white" for="firstName">Liste des Stagiaires</div>
             {{-- <input type="text" class="form-control" name="firstName" placeholder="Entrer your name" wire:model.debounce.350='search' > --}}
             {{-- <div>
               @if ($checkedContact)
@@ -94,13 +94,13 @@
                   <td>{{$cont->lastName}}</td>
                   <td>{{$cont->email}}</td>
                   <td>{{$cont->phone}}</td>
-                  {{-- <td>
-                    <div class="btn-group ">
-                      <button class="btn btn-danger btn-sm " wire:click="deleteContact({{$cont->id}})">Delete</button>
-                      
-                      <button class="btn btn-success btn-sm ">Edit</button>
-                    </div>
-                  </td> --}}
+                 <td>
+                  <div class=" d-flexjustify-content-center ">
+                    <button class="btn btn-danger  " wire:click="deleteContact({{$cont->id}})">Delete</button>
+                    
+                    <button class="btn btn-success ml-2">Edit</button>
+                  </div>
+                  </td> 
                   
                 </tr>
               </tbody>
