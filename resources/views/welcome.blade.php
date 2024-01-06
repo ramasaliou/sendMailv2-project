@@ -7,13 +7,14 @@
     
    <div class="container mt-5 ">
     <div class="row">
+        
         <div class="float-right w-25  col-md-3 alert-danger" >
             <img class="img-fluid" src="image/imaEmail.png" alt="">
 
         </div>
 
         <div class=" float-none w-25 col-md-6">
-            <h2 class="fw-bold">Envoi d'email individuel</h2>
+            <h2 class="fw-bold text-center">Envoi d'email individuel</h2>
             <div class="p-4 border-5 border border-secondary rounded-5 bg-danger  ">
             <form action="{{route('sendMail')}}" method="post" enctype="multipart/form-data">
                 @csrf
@@ -83,7 +84,7 @@
                 </div>
     
     
-                <button type="submit" class="btn m-3" style="background-color: rgb(248, 215, 218);">Send</button>
+                <button type="button" class="btn btn-dark">Send</button>
     
             </form>
         </div>
