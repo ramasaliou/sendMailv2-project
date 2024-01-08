@@ -97,8 +97,8 @@
                  <td>
                   <div class=" d-flexjustify-content-center ">
                     <button class="btn btn-danger  " wire:click="deleteContact({{$cont->id}})">Delete</button>
-                    
-                    <button class="btn btn-success ml-2">Edit</button>
+                    <a class="btn btn-success ml-2" href='/update-contact/{{$cont->id }}' class="btn btn-info">Update</a>
+                    {{-- <button class="btn btn-success ml-2">Edit</button> --}}
                   </div>
                   </td> 
                   

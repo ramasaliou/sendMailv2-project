@@ -33,3 +33,6 @@ Route::get('sendmailchedek/{id}',[MessageController::class,'sendmailchedek'])->n
 Route::post('sendmailchedek',[MessageController::class,'sendmailchedekstore'])->name('post.sendmailchedek');
 
 Route::get('/sendmail/{id}',[MessageController::class,'sendMailindiv']);
+
+Route::get('/update-contact/{id}',[ContactContrller::class, 'update_contact']);
+Route::post('/update/traitement',[ContactContrller::class, 'update_contact_traitement'])->name('/update/traitement');

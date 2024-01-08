@@ -46,6 +46,32 @@ class ContactContrller extends Controller
 
     }
 
+      
+    public function update_contact($id)
+     {
+        $contacts = Contact::find($id);
+        return view('update-list-Contact', compact('contacts'));
+    }
+
+    public function update_contact_traitement(Request $request){
+        $request->validate([
+            'firstName' =>'required',
+            'lastName' =>'required',
+            'email' =>'required|email',
+            'phone'=>'required',
+        ]);
+
+        $contact = Contact::find($request->id);
+        $contact->firstName = $request->firstName;
+        $contact->lastName = $request->lastName;
+        $contact->email = $request->email;
+        $contact->phone = $request->phone;
+        $contact->update();
+
+        // return redirect('/contact')->with('status', 'L\'contact a bien ete modifier avec  succces.');
+        return redirect()->back()->with('status', 'L\'contact a bien ete modifier avec  succces.');
+    }
+
     public function index(){
           // return Pointage::join('pointeurs','pointages.pointeur_id','=','pointeurs.id')->get('pointeur*','pointage*');
     //    $contact = DB::table('contacts')

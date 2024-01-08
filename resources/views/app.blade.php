@@ -18,7 +18,7 @@
   <title>Send-Mail</title>
 </head>
 <body>
-   <nav class="navbar navbar-expand-lg navbar-light bg-danger " style="color: white;">
+   <nav class="navbar navbar-expand-lg navbar-light bg-danger " style="color: white; z-index:99;" >
       <a class="navbar-brand" style="color: white;" href="{{route('home')}}"><i class="fa-solid fa-envelope m-2 text-white"></i><strong>Team-Communication-App</strong></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
