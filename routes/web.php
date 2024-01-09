@@ -19,7 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::view('/groupe', 'welcome2')->name('homegroupe');
-Route::view('/', 'welcome')->name('home');
+Route::view('/', 'landing')->name('home');
 
 Route::get('/listContactview', [ContactContrller::class,'index'])->name('listContactview');
 Route::get('/listContactStagiareview', [ContactContrller::class,'indexStagiare'])->name('listContactstagiaireview');
@@ -36,3 +36,8 @@ Route::get('/sendmail/{id}',[MessageController::class,'sendMailindiv']);
 
 Route::get('/update-contact/{id}',[ContactContrller::class, 'update_contact']);
 Route::post('/update/traitement',[ContactContrller::class, 'update_contact_traitement'])->name('/update/traitement');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
