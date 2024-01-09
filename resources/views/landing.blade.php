@@ -52,7 +52,7 @@
                 <a class="nav-link" href="work.html">Work </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="category.html"> Category </a>
+                <a class="nav-link" href="category.html"> Fonctiona</a>
               </li>
             </ul>
             <div class="user_option">
@@ -114,7 +114,7 @@
                       MAINTENANT!
                     </h1>
                     <p>
-                       <span>"DEFAREUR MAILING : L'application qui transforme l'envoi d'e-mails en une activité divertissante et agréable !" </span>
+                       <span>"DEFAREUR MAILING : L'Application qui transforme l'envoi d'e-mails en une activité divertissante et agréable !" </span>
                     </p>
                     <div class="btn-box">
                       <a href="" class="btn-1">
@@ -248,7 +248,7 @@
     <div class="container">
       <div class="heading_container">
         <h2>
-          Category
+          FOCTIONNALITES 
         </h2>
       </div>
       <div class="category_container">
@@ -258,7 +258,7 @@
           </div>
           <div class="detail-box">
             <h5>
-              Design & Arts
+              Ajout contact
             </h5>
           </div>
         </div>
@@ -268,7 +268,7 @@
           </div>
           <div class="detail-box">
             <h5>
-              Web Development
+              Modification des infos contact
             </h5>
           </div>
         </div>
@@ -278,7 +278,7 @@
           </div>
           <div class="detail-box">
             <h5>
-              SEO Markting
+              ENVOI DE MAIL GROUPE
             </h5>
           </div>
         </div>
@@ -288,7 +288,7 @@
           </div>
           <div class="detail-box">
             <h5>
-              Video Edting
+            EDITER CONTACT
             </h5>
           </div>
         </div>
@@ -298,7 +298,7 @@
           </div>
           <div class="detail-box">
             <h5>
-              Logo Design
+              Enregistrement contacts
             </h5>
           </div>
         </div>
@@ -308,7 +308,7 @@
           </div>
           <div class="detail-box">
             <h5>
-              Game Design
+              Modification Contact
             </h5>
           </div>
         </div>
@@ -345,105 +345,7 @@
   </section>
 
   <!-- end about section -->
-
-  <!-- freelance section -->
-
-  <section class="freelance_section ">
-    <div id="accordion">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-md-5 offset-md-1">
-            <div class="detail-box">
-              <div class="heading_container">
-                <h2>
-                  Work Freelaner Has Done
-                </h2>
-              </div>
-              <div class="tab_container">
-                <div class="t-link-box" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  <div class="img-box">
-                    <img src="images/f1.png" alt="">
-                  </div>
-                  <div class="detail-box">
-                    <h5>
-                      $250 Million
-                    </h5>
-                    <h3>
-                      Paid to Freelancers
-                    </h3>
-                  </div>
-                </div>
-                <div class="t-link-box collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  <div class="img-box">
-                    <img src="images/f2.png" alt="">
-                  </div>
-                  <div class="detail-box">
-                    <h5>
-                      2 Million
-                    </h5>
-                    <h3>
-                      Paid Invoices
-                    </h3>
-                  </div>
-                </div>
-                <div class="t-link-box collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  <div class="img-box">
-                    <img src="images/f3.png" alt="">
-                  </div>
-                  <div class="detail-box">
-                    <h5>
-                      700,000
-                    </h5>
-                    <h3>
-                      Worldwide Freelancer
-                    </h3>
-                  </div>
-                </div>
-                <div class="t-link-box collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  <div class="img-box">
-                    <img src="images/f4.png" alt="">
-                  </div>
-                  <div class="detail-box">
-                    <h5>
-                      98%
-                    </h5>
-                    <h3>
-                      Customer <br>
-                      Satisfaction Rate
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="collapse show" id="collapseOne" aria-labelledby="headingOne" data-parent="#accordion">
-              <div class="img-box">
-                <img src="images/freelance-img.jpg" alt="">
-              </div>
-            </div>
-            <div class="collapse" id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordion">
-              <div class="img-box">
-                <img src="images/freelance-img.jpg" alt="">
-              </div>
-            </div>
-            <div class="collapse" id="collapseThree" aria-labelledby="headingThree" data-parent="#accordion">
-              <div class="img-box">
-                <img src="images/freelance-img.jpg" alt="">
-              </div>
-            </div>
-            <div class="collapse" id="collapseFour" aria-labelledby="headingfour" data-parent="#accordion">
-              <div class="img-box">
-                <img src="images/freelance-img.jpg" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- end freelance section -->
+ 
 
   <!-- client section -->
 
@@ -465,7 +367,7 @@
                   </h4>
                   <p>
                   Hello,<br>
-                   Moi c'est Mouhamed GAYE ,etudiant en licence DEVELOPPEMENT ET ADMINISTRATION D'APPLICATION. <br>
+                   Moi c'est Mouhamed GAYE ,etudiant en licence DEVELOPPEMENT ET ADMINISTRATION D'APPLICATION,FULL_STACK XARALISTE. <br>
                    Stagiare en Dev FULL-STACK au DEFAR SCI dans le cadre du programme "JANG-LIGGEY".
                   </p>
                   <img src="image/quote.png" alt="">
@@ -474,11 +376,11 @@
               <div class="carousel-item">
                 <div class="detail-box">
                   <h4>
-                    Mouhamed GAYE
+                    EL Hadji Malick DIOUF
                   </h4>
                   <p>
                    Hello,<br>
-                   Moi c'est Mouhamed GAYE ,etudiant en licence DEVELOPPEMENT ET ADMINISTRATION D'APPLICATION. <br>
+                   Je me nomme EL Hadji Malick DIOUF ,etudiant en Master SYSTEME D'INFORMATION ET RESEAUX,FULL-STACK XARALISTE. <br>
                    Stagiare en Dev FULL-STACK au DEFAR SCI dans le cadre du programme "JANG-LIGGEY".
 
                   </p>
@@ -488,10 +390,12 @@
               <div class="carousel-item">
                 <div class="detail-box">
                   <h4>
-                    John Hissona
+                    Ndeye Amie THIAM
                   </h4>
                   <p>
-                    passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If youThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in s
+                  Bonjour,<br>
+                   Moi c'est Ndeye Amie THIAM ,etudiante en MARKETING DIGITAL ,FULL-STACK XARALISTE. <br>
+                   Stagiare en Dev FULL-STACK au DEFAR SCI dans le cadre du programme "JANG-LIGGEY".
                   </p>
                   <img src="image/quote.png" alt="">
                 </div>
