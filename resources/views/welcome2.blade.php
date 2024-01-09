@@ -65,7 +65,7 @@
                                         <input type="file" class="form-control" name="piecejoint" placeholder="Piecejoint" value="{{ old('piecejoint') }}">
                                     </div>
 
-                                    <button type="button" class="btn btn-dark">Send</button>
+                                    <button type="submit" class="btn btn-dark">Send</button>
                                 </form>
                             </div>
                         </div>
@@ -87,6 +87,7 @@
             <img class="img-fluid" src="image/mail-groupe.png" alt="">
 
         </div>
+    </div>
  </div>
 
 
