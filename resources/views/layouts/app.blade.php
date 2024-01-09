@@ -23,7 +23,11 @@
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
             <div class="container">
+<<<<<<< HEAD
                 <a class="navbar-brand" href="{{route('homegroupe')}}">
+=======
+                <a class="navbar-brand" href="{{ url('/') }}">
+>>>>>>> 6263c55a3842c32f9a7322ff965045f431e73c34
                     {{ config('app.name', 'Laravel') }}
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
