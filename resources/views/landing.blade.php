@@ -214,15 +214,15 @@
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                Best Experinced Freelancer Here
+                MEILLEUR FREELANCE Chez DafarSci
               </h2>
             </div>
             <p>
-              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as
+              C’est un fait établi des projets laravel 
             </p>
             <div class="btn-box">
               <a href="" class="btn-1">
-                Read More
+                Voire plus
               </a>
               <a href="" class="btn-2">
                 Hire
@@ -327,11 +327,10 @@
       </div>
       <div class="detail-box">
         <h2>
-          About Spering Company
+          A propos de NOUS?
         </h2>
         <p>
-          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If youThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you
-        </p>
+          TEAM COMMUNICATION APPS, également connu sous le nom de système de gestion d'envoi d'e-mails, est une plateforme logicielle qui facilite l ’ajoute d’un contact , d’un admin ou d’un stagiaire, l'organisation et l'envoi d'e-mails individuel ou à un groupe cible. Ce type de système est largement utilisé dans le cadre du marketing par e-mail, de la communication d'entreprise et de la gestion des campagnes d'information.
         <a href="">
           Read More
         </a>
@@ -363,7 +362,7 @@
                   <p>
                   Hello,<br>
                    Moi c'est Mouhamed GAYE ,etudiant en licence DEVELOPPEMENT ET ADMINISTRATION D'APPLICATION,FULL_STACK XARALISTE. <br>
-                   Stagiare en Dev FULL-STACK au DEFAR SCI dans le cadre du programme "JANG-LIGGEY".
+                   Stagiare chez Dev FULL-STACK au DEFAR SCI dans le cadre du programme "JANG-LIGGEY".
                   </p>
                   <img src="image/quote.png" alt="">
                 </div>
@@ -375,8 +374,8 @@
                   </h4>
                   <p>
                    Hello,<br>
-                   Je me nomme EL Hadji Malick DIOUF ,etudiant en Master SYSTEME D'INFORMATION ET RESEAUX,FULL-STACK XARALISTE. <br>
-                   Stagiare en Dev FULL-STACK au DEFAR SCI dans le cadre du programme "JANG-LIGGEY".
+                   Je me nomme EL Hadji Malick DIOUF ,etudiant en Master SYSTEME D'INFORMATION ET RESEAUX,FULL-STACK Developpeur. <br>
+                   Et Stagiare en Dev FULL-STACK chez DEFAR SCI dans le cadre du programme "JANG-LIGGEY".
 
                   </p>
                   <img src="image/quote.png" alt="">
@@ -389,8 +388,35 @@
                   </h4>
                   <p>
                   Bonjour,<br>
-                   Moi c'est Ndeye Amie THIAM ,etudiante en MARKETING DIGITAL ,FULL-STACK XARALISTE. <br>
-                   Stagiare en Dev FULL-STACK au DEFAR SCI dans le cadre du programme "JANG-LIGGEY".
+                   Moi c'est Ndeye Amie THIAM ,etudiante en Communication DIGITAL et FULL-STACK Developpeur. <br>
+                  Et Stagiare en Dev FULL-STACK chez DEFAR SCI dans le cadre du programme "JANG-LIGGEY".
+                  </p>
+                  <img src="image/quote.png" alt="">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="detail-box">
+                  <h4>
+                    Ramatoulaye NIANG
+                  </h4>
+                  <p>
+                   Hello,<br>
+                   Je me nomme Ramatoulaye NIANG ,etudiant en Licence Developpement Administration D'Apllication ,FULL-STACK Developpeuse. <br>
+                   Et Stagiare en Dev FULL-STACK chez DEFAR SCI dans le cadre du programme "JANG-LIGGEY".
+
+                  </p>
+                  <img src="image/quote.png" alt="">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="detail-box">
+                  <h4>
+                    Abibatou Badji
+                  </h4>
+                  <p>
+                  Bonjour,<br>
+                   Moi c'est Abibatou Badji ,etudiante en Commerce internationnal et FULL-STACK Developpeur. <br>
+                  Et Stagiare en Dev FULL-STACK chez DEFAR SCI dans le cadre du programme "JANG-LIGGEY".
                   </p>
                   <img src="image/quote.png" alt="">
                 </div>
@@ -417,7 +443,7 @@
   <section class="info_section ">
     <div class="info_container layout_padding-top">
       <div class="container">
-        <div class="info_top">
+        {{-- <div class="info_top">
           <div class="info_logo">
             <img src="images/logo.png" alt="" />
             <span>
@@ -441,7 +467,7 @@
               <img src="images/youtube.png" alt="">
             </a>
           </div>
-        </div>
+        </div> --}}
 
         <div class="info_main">
           <div class="row">
@@ -459,7 +485,7 @@
                     <a class="" href="about.html">EMAIL: <br>elhadjimalick97@gmail.com</a><br>
                   </li>
                   <li class="">
-                    <a class="" href="work.html">TEL:7777777777  </a><br>
+                    <a class="" href="work.html">TEL:772332578  </a><br>
                   </li>
                   <li class="">
                     <a class="" href="category.html">ADRESSE:SENEGAL/DAKAR </a>
@@ -480,10 +506,10 @@
                     <a class="" href="index.html"> <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="">
-                    <a class="" href="about.html">EMAIL:mougaye1225@gmail.com</a><br>
+                    <a class="" href="about.html">EMAIL:abibadji589@gmail.com</a><br>
                   </li>
                   <li class="">
-                    <a class="" href="work.html">TEL:7777777777  </a><br>
+                    <a class="" href="work.html">TEL:772793917  </a><br>
                   </li>
                   <li class="">
                     <a class="" href="category.html">ADRESSE:SENEGAL/DAKAR </a>
@@ -506,10 +532,10 @@
                     <a class="" href="index.html"> <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="">
-                    <a class="" href="about.html">EMAIL: EL Hadji Malick DIOUF</a><br>
+                    <a class="" href="about.html">EMAIL:niangramatoulaye532@gmail.com</a><br>
                   </li>
                   <li class="">
-                    <a class="" href="work.html">TEL:7777777777  </a><br>
+                    <a class="" href="work.html">TEL:766302145  </a><br>
                   </li>
                   <li class="">
                     <a class="" href="category.html">ADRESSE:SENEGAL/DAKAR </a>
@@ -530,10 +556,10 @@
                     <a class="" href="index.html"> <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="">
-                    <a class="" href="about.html">EMAIL: EL Hadji Malick DIOUF</a><br>
+                    <a class="" href="about.html">EMAIL:tndeyeamie456@gmail.com</a><br>
                   </li>
                   <li class="">
-                    <a class="" href="work.html">TEL:7777777777  </a><br>
+                    <a class="" href="work.html">TEL:782864990  </a><br>
                   </li>
                   <li class="">
                     <a class="" href="category.html">ADRESSE:SENEGAL/DAKAR </a>
@@ -557,7 +583,7 @@
                     <a class="" href="about.html">EMAIL: nabidev97@gmail.com</a><br>
                   </li>
                   <li class="">
-                    <a class="" href="work.html">TEL:7777777777  </a><br>
+                    <a class="" href="work.html">TEL:781209526  </a><br>
                   </li>
                   <li class="">
                     <a class="" href="category.html">ADRESSE:SENEGAL/DAKAR </a>
@@ -569,7 +595,7 @@
 
             <!-- logo DEfarsci -->
             <div class="col-3">
-              <img src="image/log-defarsci.jpg" alt="" height="25%">
+              <img src="image/log-defarsci.png" alt="" height="70%" width="50%">
             </div>
             <!--Fin logo DEfarsci -->
             
@@ -588,8 +614,7 @@
   <footer class="container-fluid footer_section ">
     <div class="container">
       <p>
-        &copy; <span id="displayDate"></span> All Rights Reserved By
-        DEFAREUR TEAM-DEV JANG-LIGGEY
+        &copy; <span id="displayDate"></span> &copy 2024 Copyright:Defarsci.com
       </p>
     </div>
   </footer>
