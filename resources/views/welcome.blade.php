@@ -8,14 +8,14 @@
    <div class="container mt-5 ">
     <div class="row">
         
-        <div class="float-right w-25  col-md-3 alert-danger" >
+        <div class="float-right   col-md-3" >
             <img class="img-fluid" src="image/imaEmail.png" alt="">
 
         </div>
 
         <div class=" float-none w-25 col-md-6">
             <h2 class="fw-bold text-center">Envoi d'email individuel</h2>
-            <div class="p-4 border-5 border border-secondary rounded-5 bg-danger  ">
+            <div class="p-4 border-5 border border-secondary rounded-5 bg-danger " style="box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;">
             <form action="{{route('sendMail')}}" method="post" enctype="multipart/form-data">
                 @csrf
     
@@ -110,12 +110,12 @@
        
         </div>
       
-       
-        <div class=" float-left w-25 col-md-3 alert-danger">
+        
+        <div class="float-right  col-md-3" >
             <img class="img-fluid" src="image/imaEmail.png" alt="">
 
         </div>
-        
+  
     
     </div>
 

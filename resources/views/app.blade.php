@@ -17,9 +17,9 @@
      
   <title>Send-Mail</title>
 </head>
-<body>
-   <nav class="navbar navbar-expand-lg navbar-light bg-danger " style="color: white; z-index:99;" >
-      <a class="navbar-brand" style="color: white;" href="{{route('home')}}"><i class="fa-solid fa-envelope m-2 text-white"></i><strong>Team-Communication-App</strong></a>
+<body style="background-color: #eee">
+   <nav class="navbar navbar-expand-lg navbar-light bg-danger" >
+      <a class="navbar-brand" bg-dark style="color: white;" href="{{route('home')}}"><i class="fa-solid fa-envelope m-2 text-white"></i><strong>Team-Communication-App</strong></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -63,7 +63,7 @@
                         <!-- Authentication Links -->
                         @guest
                             @if (Route::has('login'))
-                                <li class="nav-item">
+                                <li class="nav-item" >
                                     <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
                                 </li>
                             @endif
@@ -102,7 +102,7 @@
 
       @yield('content')
      
-      <div class="text-center pt-3 mt-3 bg-danger" style="color: white" >
+      <div class="text-center pt-3 mt-3 bg-danger" >
             © 2024 Copyright:
             <a class="text-white" href="#">Defarsci.com</a>
           </div>
