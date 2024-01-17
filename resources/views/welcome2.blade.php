@@ -6,7 +6,7 @@
 <div class="container mt-5">
     <div class="row">
 
-    <div class="float-right w-25  col-md-3 alert-danger" >
+    <div class="float-right w-25  col-md-3 " >
 
 
             <img class="img-fluid" src="image/mail-groupe.png" alt="">
@@ -18,7 +18,7 @@
      <div class=" float-none w-25 col-md-6">
                         <div class=" float-none ">
                             <h2 class="fw-bold mb-4 text-dark text-center">Envoi d'email Groupé</h2>
-                            <div class="p-4 border-5 border border-secondary rounded-5 bg-danger " style="background-img; color: white;"> <!-- Couleur noire avec une opacité de 0.7 -->
+                            <div class="p-4 border-5 border border-secondary rounded-5 bg-danger box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; " style="background-img; color: white;"> <!-- Couleur noire avec une opacité de 0.7 -->
                                 <form action="{{ route('sendMailgroupe') }}" method="post" enctype="multipart/form-data">
                                     @csrf
 
@@ -83,7 +83,7 @@
 
 
 
-    <div class=" float-left w-25 col-md-3 alert-danger">
+    <div class=" float-left w-25 col-md-3 ">
             <img class="img-fluid" src="image/mail-groupe.png" alt="">
 
         </div>

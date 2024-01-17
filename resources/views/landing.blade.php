@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <!-- Basic -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -22,6 +23,7 @@
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
+  
 </head>
 
 <body>
@@ -243,17 +245,17 @@
     <div class="container">
       <div class="heading_container">
         <h2 id="fonctionalites">
-          FOCTIONNALITES 
+          FONCTIONNALITES 
         </h2>
       </div>
       <div class="category_container">
         <div class="box">
-          <div class="img-box">
-            <img src="images/c1.png" alt="">
+          <div class="img-box" >
+            <img src="images/c2.png" alt="">
           </div>
           <div  class="detail-box">
             <h5>
-              Ajout contact
+              <button type="button" class="btn btn-dark">AJOUTER UN CONTACT</button>
             </h5>
           </div>
         </div>
@@ -263,7 +265,7 @@
           </div>
           <div class="detail-box">
             <h5>
-              Modification des infos contact
+              <button type="button" class="btn btn-dark">ENVOI DE MAIL INDIVIDUEL</button>
             </h5>
           </div>
         </div>
@@ -273,7 +275,7 @@
           </div>
           <div class="detail-box">
             <h5>
-              ENVOI DE MAIL GROUPE
+              <button type="button" class="btn btn-dark">ENVOI DE MAIL GROUPE</button> 
             </h5>
           </div>
         </div>
@@ -283,7 +285,7 @@
           </div>
           <div class="detail-box">
             <h5>
-            EDITER CONTACT
+              <button type="button" class="btn btn-dark">MODIFIER UN CONTACT</button>
             </h5>
           </div>
         </div>
@@ -293,7 +295,7 @@
           </div>
           <div class="detail-box">
             <h5>
-              Enregistrement contacts
+              <button type="button" class="btn btn-dark">SUPPRIMER UN CONTACT</button>
             </h5>
           </div>
         </div>
@@ -303,7 +305,7 @@
           </div>
           <div class="detail-box">
             <h5>
-              Modification Contact
+              <button type="button" class="btn btn-dark"> AUTHENTIFICATION</button>
             </h5>
           </div>
         </div>
