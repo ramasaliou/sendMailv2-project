@@ -42,12 +42,6 @@
                    
                   </div>
                 </li>
-          {{-- <li class="nav-item active">
-           
-          </li> --}}
-          {{-- <li class="nav-item">
-            
-          </li> --}}
           <li class="nav-item">
             <a class="nav-link fs-5 fw-bold text-white" href="{{route('addContactview')}}">Ajouter un contact</a>
           </li>
@@ -56,13 +50,7 @@
           </li>
           
          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- Left Side Of Navbar -->
-                    <ul class="navbar-nav me-auto">
-
-                    </ul>
-
-                    <!-- Right Side Of Navbar -->
-                    <ul class="navbar-nav ms-auto">
+                   
                         <!-- Authentication Links -->
                         @guest
                             @if (Route::has('login'))
@@ -95,7 +83,7 @@
                                 </div>
                             </li>
                         @endguest
-                    </ul>
+                  
                 </div>
           
         </ul>

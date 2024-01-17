@@ -37,6 +37,9 @@ Route::get('/sendmail/{id}',[MessageController::class,'sendMailindiv']);
 Route::get('/update-contact/{id}',[ContactContrller::class, 'update_contact']);
 Route::post('/update/traitement',[ContactContrller::class, 'update_contact_traitement'])->name('/update/traitement');
 
+Route::get('/delete-contact/{id}',[ContactContrller::class, 'delete_contact']);
+
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

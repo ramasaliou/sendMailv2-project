@@ -72,6 +72,12 @@ class ContactContrller extends Controller
         return redirect()->back()->with('status', 'L\'contact a bien ete modifier avec  succces.');
     }
 
+    public function delete_contact($id){
+        $contact = contact::find($id);
+        $contact->delete();
+        return redirect()->back()->with('status', 'L\'contact a bien ete supprimer avec  succces.');
+    }
+
     public function index(){
           // return Pointage::join('pointeurs','pointages.pointeur_id','=','pointeurs.id')->get('pointeur*','pointage*');
     //    $contact = DB::table('contacts')
