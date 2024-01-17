@@ -96,11 +96,7 @@
                   <td>{{$cont->phone}}</td>
                   <td>
                     <div class=" d-flexjustify-content-center ">
-<<<<<<< HEAD
                       <button class="btn" style="background-color:#F9A826;" wire:click="deleteContact({{$cont->id}})">Delete</button>
-=======
-                      <a href="/delete-contact/{{ $cont->id }}" class="btn btn-danger">Delete</a>
->>>>>>> 275787c8541d1fca789d954318c27f449a5f76a5
                        <a class="btn btn-success ml-2" href='/update-contact/{{$cont->id }}' class="btn btn-info">Update</a>
                     </div>
                   </td> 
