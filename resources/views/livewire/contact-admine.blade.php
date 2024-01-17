@@ -12,7 +12,7 @@
             <p class="card-text" ><h1><strong>{{$admine}}</strong></h1></p>
             
           </div>
-          <a class="navbar-brand border border-danger  text-center p-2 m-2" style="background-color: rgb(248, 215, 218);" href='{{route('listContactadminview')}}'>voire list</a>
+          <a class="navbar-brand border border-danger  text-center p-2 m-2" style="background-color:#80B3FF;" href='{{route('listContactadminview')}}'>voire list</a>
          </div>
          <div class=" col-md-2 card m-1 border border-secondary"style="backgrounde-color: rgb(120, 176, 160);" >
                
@@ -21,7 +21,7 @@
             <p class="card-text" ><h1><strong>{{$stagiaire}}</strong></h1></p>
     
           </div>
-          <a class="navbar-brand border border-danger  text-center p-2 m-2" style="background-color: rgb(248, 215, 218);" href='{{route('listContactstagiaireview')}}'>liste des Stagiares</a>
+          <a class="navbar-brand border border-danger  text-center p-2 m-2" style="background-color:#80B3FF;" href='{{route('listContactstagiaireview')}}'>liste des Stagiares</a>
         </div>
     
         <div class="col-md-2 card m-1 border border-info" style="backgrounde-color: rgb(112, 144, 120);">
@@ -31,7 +31,7 @@
             <p class="card-text" ><h1><strong>{{$membre}}</strong></h1></p>
           
           </div>
-          <a class="navbar-brand border border-danger  text-center p-2 m-2" style="background-color: rgb(248, 215, 218);" href='{{route('listContactadminview')}}'>liste des Admins</a>
+          <a class="navbar-brand border border-danger  text-center p-2 m-2" style="background-color:#80B3FF;" href='{{route('listContactadminview')}}'>liste des Admins</a>
         </div>
     
         <div class="col-md-2 card m-1 border border-info"style="backgrounde-color: rgb(120, 176, 160);" >
@@ -40,7 +40,7 @@
             <p class="card-text" ><h1><strong>{{$total}}</strong></h1></p>
           
           </div>
-          <a class="navbar-brand border border-danger  text-center p-2 m-2" style="background-color: rgb(248, 215, 218);" href="{{route('listContactview')}}" >tout les contacts </a>
+          <a class="navbar-brand border border-danger  text-center p-2 m-2" style="background-color:#80B3FF;" href="{{route('listContactview')}}" >tout les contacts </a>
         </div> 
     
     
@@ -96,7 +96,7 @@
                   <td>{{$cont->phone}}</td>
                   <td>
                     <div class=" d-flexjustify-content-center ">
-                      <a href="/delete-contact/{{ $cont->id }}" class="btn btn-danger">Delete</a>
+                      <button class="btn" style="background-color:#F9A826;" wire:click="deleteContact({{$cont->id}})">Delete</button>
                        <a class="btn btn-success ml-2" href='/update-contact/{{$cont->id }}' class="btn btn-info">Update</a>
                     </div>
                   </td> 

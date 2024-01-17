@@ -27,9 +27,9 @@
 </div> --}}
 <div>
     <div class="form-group">
-        <select class="form-control" id="email" name="email">
+        <select class="form-control" id="email" name="email"style="border-radius: 10px; width: 100%;" >
             {{-- <option value="{{ $webseries }}">"{{ $webseries }}"</option> --}}
-            <option value="">--</option>
+            <option value="">Email</option>
             @foreach($webseries as $item)
             <option value="{{ $item->email }}" >{{$item->email }}</option>
             @endforeach

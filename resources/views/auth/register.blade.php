@@ -5,7 +5,7 @@
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header bg-danger">
+                <div class="card-header " style="background-color:#80B3FF;">
                     <h1 class="card-title text-white">Register</h1>
                 
                 
@@ -68,7 +68,7 @@
 
                         <div class="row mb-0">
                             <div class="col-md-6 offset-md-4">
-                                <button type="submit" class="btn btn-danger">
+                                <button type="submit" class="btn" style="background-color:#80B3FF;">
                                     {{ __('Register') }}
                                 </button>
                             </div>

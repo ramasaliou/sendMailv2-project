@@ -18,7 +18,7 @@
   <title>Send-Mail</title>
 </head>
 <body style="background-color: #eee">
-   <nav class="navbar navbar-expand-lg navbar-light bg-danger" >
+   <nav class="navbar navbar-expand-lg navbar-light " style="--bs-text-opacity: .7;background-color:#80B3FF" ; >
       <a class="navbar-brand" bg-dark style="color: white;" href="{{route('home')}}"><i class="fa-solid fa-envelope m-2 text-white"></i><strong>Team-Communication-App</strong></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -28,11 +28,14 @@
             
         <ul class="navbar-nav ms-auto">
             <li class="nav-item dropdown">
+              
                   <a class="nav-link dropdown-toggle fs-5 fw-bold text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Envoi Email
                   </a>
-                  <div class="dropdown-menu bg-danger" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item text-white" href="{{route('homegroupe')}} ">Envoi d'email groupé</a>
+                  <div class="dropdown-menu " style="background-color:#80B3FF" ;    aria-labelledby="navbarDropdown">
+                   
+                     <a class="dropdown-item text-white" href="{{route('homegroupe')}} ">Envoi d'email groupé</a>
+                    </button>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item text-white" href="{{route('home')}}">Envoi d'email individuel</a>
                     
@@ -90,7 +93,7 @@
 
       @yield('content')
      
-      <div class="text-center pt-3 mt-3 bg-danger" style="color: white">
+      <div class="text-center pt-3 mt-3 " style="--bs-text-opacity: .7; background-color:#80B3FF; color:white" >
             © 2024 Copyright:
             <a class="text-white" href="#">Defarsci.com</a>
           </div>

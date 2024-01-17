@@ -44,8 +44,8 @@ body {
 /*header section*/
 .hero_area {
   height: calc(100vh - 30px);
-  background: -webkit-gradient(linear, left top, right top, color-stop(55%, #1a2e35), color-stop(55%, #1cbbb4));
-  background: linear-gradient(to right, #1a2e35 55%, #1cbbb4 55%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(55%, #80B3FF), color-stop(55%, #F9A826));
+  background: linear-gradient(to right, #80B3FF 55%, #F9A826 55%);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -59,7 +59,7 @@ body {
 .sub_page .hero_area {
   height: auto;
   background: none;
-  background-color: #1a2e35;
+  background-color: #80B3FF;
 }
 
 .hero_area.sub_pages {
@@ -199,7 +199,7 @@ a:focus {
 }
 
 .login_btn-container a {
-  color: #1cbbb4;
+  color: #80B3FF;
   text-transform: uppercase;
 }
 
@@ -258,7 +258,7 @@ a:focus {
 .slider_section .detail-box .btn-box .btn-1 {
   display: inline-block;
   padding: 10px 0;
-  background-color: #ff4f5a;
+  background-color: #F9A826;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -268,15 +268,15 @@ a:focus {
 
 .slider_section .detail-box .btn-box .btn-1:hover {
   background-color: transparent;
-  border-color: #ff4f5a;
-  color: #ff4f5a;
+  border-color: #F9A826;
+  color: #F9A826;
 }
 
 .slider_section .detail-box .btn-box .btn-2 {
   display: inline-block;
   padding: 10px 0;
   background-color: #ffffff;
-  color: #252525;
+  color: #80B3FF;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid transparent;
@@ -325,13 +325,13 @@ a:focus {
   background-repeat: no-repeat;
   background-size: 14px;
   background-position: center;
-  background-color: #1cbbb4;
+  background-color: #80B3FF;
   margin: 2px;
 }
 
 .slider_section .carousel_btn-container .carousel-control-prev:hover,
 .slider_section .carousel_btn-container .carousel-control-next:hover {
-  background-color: #ff4f5a;
+  background-color: #F9A826;
 }
 
 .slider_section .carousel_btn-container .carousel-control-prev {
@@ -394,7 +394,7 @@ a:focus {
 .experience_section .detail-box .btn-box .btn-1 {
   display: inline-block;
   padding: 10px 0;
-  background-color: #ff4f5a;
+  background-color: #F9A826;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -404,14 +404,14 @@ a:focus {
 
 .experience_section .detail-box .btn-box .btn-1:hover {
   background-color: transparent;
-  border-color: #ff4f5a;
-  color: #ff4f5a;
+  border-color: #F9A826;
+  color: #F9A826;
 }
 
 .experience_section .detail-box .btn-box .btn-2 {
   display: inline-block;
   padding: 10px 0;
-  background-color: #1a2e35;
+  background-color: #80B3FF;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -421,8 +421,8 @@ a:focus {
 
 .experience_section .detail-box .btn-box .btn-2:hover {
   background-color: transparent;
-  border-color: #1a2e35;
-  color: #1a2e35;
+  border-color: #80B3FF;
+  color: #80B3FF;
 }
 
 .experience_section .img-box img {
@@ -430,7 +430,7 @@ a:focus {
 }
 
 .category_section {
-  background-color: #1cbbb4;
+  background-color: #80B3FF;
   color: #ffffff;
   text-align: center;
 }
@@ -454,7 +454,7 @@ a:focus {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 .category_section .category_container .box {
@@ -468,8 +468,8 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 10px 0;
-  min-width: 130px;
+  margin: 5px 0;
+  min-width: 50px;
   -ms-flex-preferred-size: 26%;
       flex-basis: 26%;
 }
@@ -508,7 +508,7 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #ff4f5a;
+  background-color: #F9A826;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -519,8 +519,8 @@ a:focus {
 
 .about_section .detail-box a:hover {
   background-color: transparent;
-  border-color: #ff4f5a;
-  color: #ff4f5a;
+  border-color: #F9A826;
+  color: #F9A826;
 }
 
 .freelance_section .row {
@@ -554,7 +554,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #1a2e35;
+  background-color: #80B3FF;
   border-radius: 100%;
   margin-right: 35px;
 }
@@ -568,16 +568,16 @@ a:focus {
 
 .freelance_section .tab_container .t-link-box .detail-box h5 {
   font-weight: bold;
-  color: #ff4f5a;
+  color: #F9A826;
 }
 
 .freelance_section .tab_container .t-link-box .detail-box h3 {
   font-weight: bold;
-  color: #252525;
+  color: #80B3FF;
 }
 
 .freelance_section .tab_container .t-link-box[aria-expanded="true"] .img-box, .freelance_section .tab_container .t-link-box:hover .img-box {
-  background-color: #1cbbb4;
+  background-color: #80B3FF;
 }
 
 .freelance_section .img-box img {
@@ -619,7 +619,7 @@ a:focus {
   background-repeat: no-repeat;
   background-size: 10px;
   background-position: center;
-  background-color: #1a2e35;
+  background-color: #80B3FF;
   margin: 2px;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
@@ -636,7 +636,7 @@ a:focus {
 /* info section */
 .info_section {
   position: relative;
-  background-color: #1a2e35;
+  background-color: #80B3FF;
   color: #ffffff;
 }
 
@@ -736,7 +736,7 @@ a:focus {
 .info_section .info_form form button {
   display: inline-block;
   padding: 8px 40px;
-  background-color: #ff4f5a;
+  background-color: #F9A826;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -750,8 +750,8 @@ a:focus {
 
 .info_section .info_form form button:hover {
   background-color: transparent;
-  border-color: #ff4f5a;
-  color: #ff4f5a;
+  border-color: #F9A826;
+  color: #F9A826;
 }
 
 .info_section .info_contact .link-box {
@@ -804,7 +804,7 @@ a:focus {
 }
 
 .footer_section p {
-  color: #171717;
+  color: #80B3FF;
   margin: 0;
   padding: 25px 0 20px 0;
   margin: 0 auto;
@@ -812,7 +812,7 @@ a:focus {
 }
 
 .footer_section a {
-  color: #171717;
+  color: #80B3FF;
 }
 
 /* end footer section*/
@@ -876,3 +876,11 @@ a:focus {
           transform: rotate(-45deg) translate(8px, -8px);
 }
 /*# sourceMappingURL=style.css.map */
+/* Ajoutez ceci à votre feuille de style CSS */
+.detail-box h5 {
+  font-size: 50px;
+  margin-top: 1px; 
+}
+
+
+  
