@@ -6,8 +6,8 @@
         <div class="col-md-8">
             <div class="card">
 
-                <div class="card-header bg-danger">
-                    <h1 class="card-title text-white">Login</h1>
+                <div class="card-header " style="background-color:#80B3FF;">
+                    <h1 class="card-title text-white" style="background-color:#80B3FF;">Login</h1>
 
                 </div>
 
@@ -57,7 +57,7 @@
 
                         <div class="row mb-0">
                             <div class="col-md-8 offset-md-4">
-                                <button type="submit" class="btn btn-danger">
+                                <button type="submit" class="btn" style="background-color:#80B3FF;">
                                     {{ __('Login') }}
                                 </button>
 

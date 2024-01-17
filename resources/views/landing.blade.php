@@ -2,10 +2,10 @@
 <html>
 
 <head>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
   <!-- Basic -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofZbrhujRGmI1xZ5Ll9aO2b5F76EmEeg6L" crossorigin="anonymous">
   <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <!-- Site Metas -->
@@ -13,17 +13,16 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>DFAREUR MAILING </title>
+
+  <title>DEFAREUR MAILING </title>
 
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-
   <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
   <!-- Custom styles for this template -->
   <link href="css/style.css" rel="stylesheet" />
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
-  
 </head>
 
 <body>
@@ -206,36 +205,36 @@
 
   <section class="experience_section layout_padding">
     <div class="container">
-      <div class="row">
-        <div class="col-md-5">
-          <div class="img-box">
-            <img src="images/experience-img.jpg" alt="">
-          </div>
-        </div>
-        <div class="col-md-7">
-          <div class="detail-box">
-            <div class="heading_container">
-              <h2>
-                MEILLEUR FREELANCE Chez DafarSci
-              </h2>
+        <div class="row">
+            <div class="col-md-4 mx-auto"> <!-- Ajout de la classe mx-auto pour centrer -->
+                <div class="img-box">
+                    <img src="images/experience-img.jpg" alt="">
+                </div>
             </div>
-            <p>
-              C’est un fait établi des projets laravel 
-            </p>
-            <div class="btn-box">
-              <a href="" class="btn-1">
-                Voire plus
-              </a>
-              <a href="" class="btn-2">
-                Hire
-              </a>
+            <div class="col-md-7 mx-auto"> <!-- Ajout de la classe mx-auto pour centrer -->
+                <div class="detail-box">
+                    <div class="heading_container">
+                        <h2>
+                         MEILLEUR FREELANCE
+                        </h2>
+                    </div>
+                    <p>
+                        C’est un fait établi des projets laravel 
+                    </p>
+                    <div class="btn-box">
+                        <a href="" class="btn-1">
+                            Voire plus
+                        </a>
+                        <a href="" class="btn-2">
+                            Hire
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-
-      </div>
     </div>
-  </section>
+</section>
+
 
   <!-- end experience section -->
 
@@ -248,74 +247,86 @@
           FONCTIONNALITES 
         </h2>
       </div>
+
       <div class="category_container">
-        <div class="box">
-          <div class="img-box" >
-            <img src="images/c2.png" alt="">
-          </div>
-          <div  class="detail-box">
-            <h5>
-              <button type="button" class="btn btn-dark">AJOUTER UN CONTACT</button>
-            </h5>
-          </div>
+    <div class="box">
+        <div class="img-box">
+            <img class="emoji" src="images/c1.png" alt="">
         </div>
-        <div class="box">
-          <div class="img-box">
-            <img src="images/c2.png" alt="">
-          </div>
-          <div class="detail-box">
+        <div class="detail-box">
             <h5>
-              <button type="button" class="btn btn-dark">ENVOI DE MAIL INDIVIDUEL</button>
+            📇
             </h5>
-          </div>
+            <br>
+            <button type="button" class="btn btn-warning">AJOUTER UN CONTACT</button>
         </div>
-        <div class="box">
-          <div class="img-box">
-            <img src="images/c3.png" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              <button type="button" class="btn btn-dark">ENVOI DE MAIL GROUPE</button> 
-            </h5>
-          </div>
-        </div>
-        <div class="box">
-          <div class="img-box">
-            <img src="images/c4.png" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              <button type="button" class="btn btn-dark">MODIFIER UN CONTACT</button>
-            </h5>
-          </div>
-        </div>
-        <div class="box">
-          <div class="img-box">
-            <img src="images/c5.png" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              <button type="button" class="btn btn-dark">SUPPRIMER UN CONTACT</button>
-            </h5>
-          </div>
-        </div>
-        <div class="box">
-          <div class="img-box">
-            <img src="images/c6.png" alt="">
-          </div>
-          <div class="detail-box">
-            <h5>
-              <button type="button" class="btn btn-dark"> AUTHENTIFICATION</button>
-            </h5>
-          </div>
-        </div>
-      </div>
     </div>
-  </section>
+    <div class="box">
+        <div class="img-box">
+            <img src="images/c2.png" alt="">
+        </div>
+        <div class="detail-box">
+            <h5>
+            🔄
+            </h5>
+            <br>
+            <button type="button" class="btn btn-warning">ENVOI DE MAIL INDIVIDUEL</button>
+        </div>
+    </div>
+    <div class="box">
+        <div class="img-box">
+            <img src="images/c3.png" alt="">
+        </div>
+        <div class="detail-box">
+            <h5>
+            ✉️
+            </h5>
+            <br>
+            <button type="button" class="btn btn-warning">ENVOI DE MAIL GROUPE</button>
+        </div>
+    </div>
+    <div class="box">
+        <div class="img-box">
+            <img src="images/c3.png" alt="">
+        </div>
+        <div class="detail-box">
+            <h5>
+            ✉️
+            </h5>
+            <br>
+            <button type="button" class="btn btn-warning">MODIFIER UN CONTACT</button>
+        </div>
+    </div>
+    <div class="box">
+        <div class="img-box">
+            <img src="images/c3.png" alt="">
+        </div>
+        <div class="detail-box">
+            <h5>
+            🗑️
+            </h5>
+            <br>
+            <button type="button" class="btn btn-warning">SUPPRIMER UN CONTACT</button>
+        </div>
+    </div>
+    <div class="box">
+        <div class="img-box">
+            <img src="images/c3.png" alt="">
+        </div>
+        <div class="detail-box">
+            <h5>
+            🔐
+            </h5>
+            <br>
+            <button type="button" class="btn btn-warning">AUTHENTIFICATION</button>
+        </div>
+    </div>
+    <!-- Répétez cette structure pour les autres éléments... -->
+</div>
 
-
+</div>
+</section>
   <!-- end category section -->
-
   <!-- about section -->
 
   <section class="about_section layout_padding">
@@ -351,7 +362,7 @@
         <div class="col-lg-9 col-md-10 mx-auto">
           <div class="heading_container">
             <h2>
-              QUI SOMMENT NOUS?
+              QUI SOMMES-NOUS?
             </h2>
           </div>
           <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -362,9 +373,9 @@
                   Mouhamed GAYE
                   </h4>
                   <p>
-                  Hello,<br>
-                   Moi c'est Mouhamed GAYE ,etudiant en licence DEVELOPPEMENT ET ADMINISTRATION D'APPLICATION,FULL_STACK XARALISTE. <br>
-                   Stagiare chez Dev FULL-STACK au DEFAR SCI dans le cadre du programme "JANG-LIGGEY".
+                  Bonjour,<br>
+                  Moi, c'est Mouhamed GAYE, étudiant en Licence Développement et Administration d'Applications, développeur FULL-STACK à XARALA.<br>
+                  Et je suis également stagiaire en développement FULL-STACK chez DEFARSCI dans le cadre du programme "JANG-LIGGEY".
                   </p>
                   <img src="image/quote.png" alt="">
                 </div>
@@ -375,9 +386,9 @@
                     EL Hadji Malick DIOUF
                   </h4>
                   <p>
-                   Hello,<br>
-                   Je me nomme EL Hadji Malick DIOUF ,etudiant en Master SYSTEME D'INFORMATION ET RESEAUX,FULL-STACK Developpeur. <br>
-                   Et Stagiare en Dev FULL-STACK chez DEFAR SCI dans le cadre du programme "JANG-LIGGEY".
+                   Bonjour,<br>
+                   Je me nomme EL Hadji Malick DIOUF, étudiant en Master Système d'Information et Réseaux, développeur FULL-STACK à XARALA. <br>
+                   Et je suis également stagiaire en développement FULL-STACK chez DEFARSCI dans le cadre du programme "JANG-LIGGEY".
 
                   </p>
                   <img src="image/quote.png" alt="">
@@ -390,8 +401,8 @@
                   </h4>
                   <p>
                   Bonjour,<br>
-                   Moi c'est Ndeye Amie THIAM ,etudiante en Communication DIGITAL et FULL-STACK Developpeur. <br>
-                  Et Stagiare en Dev FULL-STACK chez DEFAR SCI dans le cadre du programme "JANG-LIGGEY".
+                  Moi, c'est Ndeye Amie THIAM, étudiante en Communication Digitale et développeuse FULL-STACK à XARALA. <br>
+                  Je suis également stagiaire en développement FULL-STACK chez DEFARSCI dans le cadre du programme "JANG-LIGGEY".
                   </p>
                   <img src="image/quote.png" alt="">
                 </div>
@@ -402,9 +413,9 @@
                     Ramatoulaye NIANG
                   </h4>
                   <p>
-                   Hello,<br>
-                   Je me nomme Ramatoulaye NIANG ,etudiant en Licence Developpement Administration D'Apllication ,FULL-STACK Developpeuse. <br>
-                   Et Stagiare en Dev FULL-STACK chez DEFAR SCI dans le cadre du programme "JANG-LIGGEY".
+                   Bonjour,<br>
+                   Je me nomme Ramatoulaye NIANG, étudiante en Licence Développement et Administration d'Applications, développeuse FULL-STACK à XARALA. <br>
+                   Et je suis également stagiaire en développement FULL-STACK chez DEFARSCI dans le cadre du programme "JANG-LIGGEY".
 
                   </p>
                   <img src="image/quote.png" alt="">
@@ -417,8 +428,8 @@
                   </h4>
                   <p>
                   Bonjour,<br>
-                   Moi c'est Abibatou Badji ,etudiante en Commerce internationnal et FULL-STACK Developpeur. <br>
-                  Et Stagiare en Dev FULL-STACK chez DEFAR SCI dans le cadre du programme "JANG-LIGGEY".
+                  "Moi, c'est Abibatou Badji, étudiante en Commerce international et développeuse FULL-STACK. <br>
+                   Je suis également stagiaire en développement FULL-STACK chez DEFARSCI dans le cadre du programme 'JANG-LIGGEY'."
                   </p>
                   <img src="image/quote.png" alt="">
                 </div>
@@ -474,126 +485,148 @@
         <div class="info_main">
           <div class="row">
             <!-- COLONE1 -->
-          <div class="col-md-2 col-lg-3 ">
-              <div class="info_link-box">
-                <h5>
-                  EL Hdji Malick DIOUF
-                </h5>
-                <ul>
-                  <li class=" active">
-                    <a class="" href="index.html"> <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="">
-                    <a class="" href="about.html">EMAIL: <br>elhadjimalick97@gmail.com</a><br>
-                  </li>
-                  <li class="">
-                    <a class="" href="work.html">TEL:772332578  </a><br>
-                  </li>
-                  <li class="">
-                    <a class="" href="category.html">ADRESSE:SENEGAL/DAKAR </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-             <!-- FIN COLONE1 -->
-
-              <!-- COLONE2 -->
-            <div class="col-md-2 col-lg-3  ">
-              <div class="info_link-box">
-                <h5>
-                  Abibatou Badji
-                </h5>
-                <ul>
-                  <li class=" active">
-                    <a class="" href="index.html"> <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="">
-                    <a class="" href="about.html">EMAIL:abibadji589@gmail.com</a><br>
-                  </li>
-                  <li class="">
-                    <a class="" href="work.html">TEL:772793917  </a><br>
-                  </li>
-                  <li class="">
-                    <a class="" href="category.html">ADRESSE:SENEGAL/DAKAR </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-              <!-- FIN COLONE2 -->
-
-              
-
+          <!-- COLONE1 -->
+<!-- COLONE1 -->
+<div class="col-md-2 col-lg-3 ">
+  <div class="info_link-box">
+    <h5>
+      EL Hadji Malick DIOUF
+    </h5>
+    <ul>
+      <li class="active">
+        <a class="" href="index.html"><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="">
+        <a class="" href="about.html">
+          📧:elhadji97@gmail.com
+        </a><br>
+      </li>
+      <li class="">
+        <a class="" href="work.html">
+          ☎️: 772332578
+        </a><br>
+      </li>
+      <li class="">
+        <a class="" href="category.html">
+          📍: SENEGAL/DAKAR
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- FIN COLONE1 -->
+<div class="col-md-2 col-lg-3 ">
+  <div class="info_link-box">
+    <h5>
+    Abibatou Badji
+    </h5>
+    <ul>
+      <li class="active">
+        <a class="" href="index.html"><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="">
+        <a class="" href="about.html">
+          📧:abibadji589@gmail.com
+        </a><br>
+      </li>
+      <li class="">
+        <a class="" href="work.html">
+          ☎️: 772793917
+        </a><br>
+      </li>
+      <li class="">
+        <a class="" href="category.html">
+          📍: SENEGAL/DAKAR
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
               <!-- COLONE3-->
-            <div class="col-md-2 col-lg-3 ">
-              <div class="info_link-box">
-                <h5>
-                  Ramatoulaye NIANG
-                </h5>
-                <ul>
-                  <li class=" active">
-                    <a class="" href="index.html"> <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="">
-                    <a class="" href="about.html">EMAIL:niangramatoulaye532@gmail.com</a><br>
-                  </li>
-                  <li class="">
-                    <a class="" href="work.html">TEL:766302145  </a><br>
-                  </li>
-                  <li class="">
-                    <a class="" href="category.html">ADRESSE:SENEGAL/DAKAR </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- FIN COLONE3 -->
-
-             <!-- COLONE4-->
-             <div class="col-md-2 col-lg-2">
-              <div class="info_link-box">
-                <h5>
-                  Ndeye Ami THIAME
-                </h5>
-                <ul>
-                  <li class=" active">
-                    <a class="" href="index.html"> <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="">
-                    <a class="" href="about.html">EMAIL:tndeyeamie456@gmail.com</a><br>
-                  </li>
-                  <li class="">
-                    <a class="" href="work.html">TEL:782864990  </a><br>
-                  </li>
-                  <li class="">
-                    <a class="" href="category.html">ADRESSE:SENEGAL/DAKAR </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- FIN COLONE4 -->
-
+              <div class="col-md-2 col-lg-3 ">
+  <div class="info_link-box">
+    <h5>
+    Ramatoulaye NIANG
+    </h5>
+    <ul>
+      <li class="active">
+        <a class="" href="index.html"><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="">
+        <a class="" href="about.html">
+          📧:niang532@gmail.com
+        </a><br>
+      </li>
+      <li class="">
+        <a class="" href="work.html">
+          ☎️: 766302145
+        </a><br>
+      </li>
+      <li class="">
+        <a class="" href="category.html">
+          📍: SENEGAL/DAKAR
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+        <div class="col-md-2 col-lg-3 ">
+  <div class="info_link-box">
+    <h5>
+    Ndeye Ami THIAME
+    </h5>
+    <ul>
+      <li class="active">
+        <a class="" href="index.html"><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="">
+        <a class="" href="about.html">
+          📧:tndeye456@gmail.com
+        </a><br>
+      </li>
+      <li class="">
+        <a class="" href="work.html">
+          ☎️: 782864990
+        </a><br>
+      </li>
+      <li class="">
+        <a class="" href="category.html">
+          📍: SENEGAL/DAKAR
+        </a><br>
+      </li>
+    </ul>
+  </div>
+</div>
              <!-- COLONE5-->
-             <div class="col-md-2 col-lg-3">
-              <div class="info_link-box">
-                <h5>
-                  Mouhamed GAYE
-                </h5>
-                <ul>
-                  <li class=" active">
-                    <a class="" href="index.html"> <span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="">
-                    <a class="" href="about.html">EMAIL: nabidev97@gmail.com</a><br>
-                  </li>
-                  <li class="">
-                    <a class="" href="work.html">TEL:781209526  </a><br>
-                  </li>
-                  <li class="">
-                    <a class="" href="category.html">ADRESSE:SENEGAL/DAKAR </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <!-- FIN COLONE5 -->
+
+        <!-- COLONE3-->
+        <div class="col-md-2 col-lg-3 ">
+  <div class="info_link-box">
+    <h5>
+    Mouhamed GAYE
+    </h5>
+    <ul>
+      <li class="active">
+        <a class="" href="index.html"><span class="sr-only">(current)</span></a>
+      </li>
+      <li class="">
+        <a class="" href="about.html">
+          📧:nabidev97@gmail.com
+        </a><br>
+      </li>
+      <li class="">
+        <a class="" href="work.html">
+          ☎️: 781209526
+        </a><br>
+      </li>
+      <li class="">
+        <a class="" href="category.html">
+          📍: SENEGAL/DAKAR
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
 
             <!-- logo DEfarsci -->
             <div class="col-3">
@@ -616,7 +649,7 @@
   <footer class="container-fluid footer_section ">
     <div class="container">
       <p>
-        &copy; <span id="displayDate"></span> &copy 2024 Copyright:Defarsci.com
+        &copy; <span id="displayDate"></span> Copyright:Defarsci.com
       </p>
     </div>
   </footer>
@@ -626,9 +659,7 @@
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/bootstrap.js"></script>
   <script src="js/custom.js"></script>
-
-
-</body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"></script>
 </body>
 
 </html>
