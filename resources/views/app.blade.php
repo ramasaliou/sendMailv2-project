@@ -90,7 +90,7 @@
 
       @yield('content')
      
-      <div class="text-center pt-3 mt-3 bg-danger" >
+      <div class="text-center pt-3 mt-3 bg-danger" style="color: white">
             © 2024 Copyright:
             <a class="text-white" href="#">Defarsci.com</a>
           </div>
